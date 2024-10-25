@@ -1,7 +1,7 @@
 
 # **Important message**
 > 
-> This a fork of the existing archived project created by vlebourl. I ended up forking https://github.com/RobertD502/custom_vesync/tree/fix_deprecated_entry_setup version, disconnecting from that upstream and pulling in his fix for the async error.
+> This a fork of the existing archived project created by vlebourl. I ended up forking https://github.com/RobertD502/custom_vesync/tree/fix_deprecated_entry_setup version, disconnecting from that upstream and pulling in his fix for the async error. This is not a version to be contributed to!
 
 <!---[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)-->
 [![GitHub release](https://img.shields.io/github/v/release/micahqcade/custom_vesync.svg)](https://GitHub.com/micahqcade/custom_vesync/releases/)
@@ -41,8 +41,6 @@ Navigate to the Vesync integration and click on `Enable debug logging`. Restart 
 
 ![image](https://github.com/RobertD502/custom_vesync/assets/52541649/c556458c-a0a6-4432-acec-1200fc561d79)
 
-
-
 #### YAML Method
 
 The [logger](https://www.home-assistant.io/integrations/logger/) integration lets you define the level of logging activities in Home Assistant. Turning on debug mode will show more information about unsupported devices in your logbook.
@@ -54,22 +52,3 @@ logger:
     custom_components.vesync: debug
     pyvesync: debug
 ```
-
-## TODO LIST
-```
-- [x] Air Fryer Properties (AirFryer158)
-- [ ] Air Fryer Methods
-- [ ] Create the Card
-```
-
-### Contributing
-
-All contributions are very welcomed!
-Please make sure to install `pre-commit` and run the pre-commit hook before submitting a PR.
-
-```sh
-pip install pre-commit
-pre-commit install
-pre-commit run --all-files
-```
-
