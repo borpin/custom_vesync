@@ -1,7 +1,7 @@
 
 # **Important message**
 > 
-> This a fork of the existing archived project created by vlebourl. Please contribute here.
+> This a fork of the existing archived project created by vlebourl. I ended up forking https://github.com/RobertD502/custom_vesync/tree/fix_deprecated_entry_setup version, disconnecting from that upstream and pulling in his fix for the async error.
 
 <!---[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)-->
 [![GitHub release](https://img.shields.io/github/v/release/micahqcade/custom_vesync.svg)](https://GitHub.com/micahqcade/custom_vesync/releases/)
